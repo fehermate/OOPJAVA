@@ -26,7 +26,7 @@ public class AlkFut2 {
 			System.out.println("Kérem az " + (i+1) + ".alkalmazott fizetését: ");
 			int salary = sc.nextInt();
 			
-			alkok[i] = new Alkalmazott2(name, age, salary);
+			//alkok[i] = new Alkalmazott2(name, age, salary);
 			//alkok[i] = new Alkalmazott(name, age, salary);
 			//alkok[i] = new Alkalmazott(name, DateofBirth, salary);
 		}

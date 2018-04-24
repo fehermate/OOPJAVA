@@ -58,7 +58,8 @@ public class BWEFut {
 	
 	public static void getData(BookWithEnum[] bookArray){
 		for (BookWithEnum b : bookArray){
-			System.out.println(b.toString());
+			if (b != null)
+				System.out.println(b.toString());
 		}
 	}
 	
@@ -67,8 +68,11 @@ public class BWEFut {
 		
 		for (int i = 0; i < bweArray.length;i++) {
 			if(bweArray[i].getBookStyle().equals(bookStyle)){
+				System.out.println("");
 				bweTemp[i] = bweArray[i];
 			}
+			
+			
 		}
 		return bweTemp;
 	}
